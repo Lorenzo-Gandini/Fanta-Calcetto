@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE CLASSIFICA SYSTEM "classifica.dtd">
+<CLASSIFICA genere="Giornaliera">
+	<CAMPIONATO nomeCampionato="CampionatoGenerale" giornata="1">
+		<SQUADRA nomeSquadra="suadraADmin">
+			<PUNTI>28</PUNTI>
+		</SQUADRA>
+		<SQUADRA nomeSquadra="sqCTTT">
+			<PUNTI>24</PUNTI>
+		</SQUADRA>
+	</CAMPIONATO>
+</CLASSIFICA>

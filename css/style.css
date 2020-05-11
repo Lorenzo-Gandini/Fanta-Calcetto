@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Light.ttf);
+}
+
+/* Sticky footer------------------------ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: #003466;
+  color: white;
+}
+
+body {
+  /* margine dal footer */
+	margin-bottom: 50px;
+  /* margine dalla navbar */
+    padding-top: 100px;
+    background-image: url(../img/bg_statale.jpg);
+    background-position:bottom;
+    background-size:98%;
+    background-repeat:no-repeat;
+}
+
+/*-------------------------------------- */
+
+.container {
+     font-family: 'Roboto';
+  width: 80%;
+  padding: 0 5px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.bg-dark {
+  background-color: #003466!important;
+}
+
+.btn {
+  background-color: #003466;
+  border: none;
+  color: white;
+}
+.btn:hover{
+    background-color: #0069cc;
+    border: none;
+}
+.btn:active{
+    border: none;
+}
+
+.btn-red{
+    background-color: #cc0000;
+    border:none;
+}
+.btn-red:hover{
+    background-color: #800517;
+    border:none;
+}
+.btn-red:active{
+    border: none;
+}
+
+/* Modal------------------------ */
+/* per riuscire a rendeer cliccabile il modal*/
+.modal-backdrop {
+  z-index: -1;
+}
+.col-md-8 {
+    max-width: 90%;
+}
+
+/* se l'insert è giusto il testo diventa verde*/
+.has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
+    color: #3c763d;
+}
+/* se l'insert è sbaglaito il testo diventa rosso*/
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #cc0000;
+}
+/* se l'insert è sbagliato il bordo diventa rosso*/
+.has-error .form-control {
+    border-color: #cc0000;
+}
+/* se l'insert è giusto il bordo diventa verde*/
+.has-success .form-control {
+    border-color: #3c763d;
+  }
+
+.form-control{
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  border: 1px solid #ccc;
+}
+
+.no-border-select {
+  border: white;
+}
+
+.title{
+    font-weight: 400;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.list-group-item.active {
+    color: #fff;
+    background-color: #0069cc;
+  /*  border-color: #0069cc;*/
+}
+.list-group-item {
+    color: #fff;
+    background-color: #003466;
+  /*  border-color: #003466;*/
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    color: #e2e2e2;
+    background-color: #0069cc;
+  }
+
+.elimina {
+  color: #fff;
+  background-color: #cc0000;
+}
+.elimina:focus, .elimina:hover {
+    color: #e2e2e2;
+    background-color: #800517;
+    border-color: none;
+  }
+
+
+.cont-scroll{
+    width: 100%;
+  padding: 0 1px;
+  margin: auto;
+  border-radius: 8px;
+}
+.list-scrolling{
+    position: relative;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.list-group-item-2.active {
+    color: #fff;
+    background-color: #003466;
+    border-color: #003466;
+}
+.list-group-item-2 {
+    color: #000000;
+    background-color: #fff;
+}
+.list-group-item-2-action:focus {
+    color: #000000;
+    background-color: #fff;
+}
+.list-group-item-2-action:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+
+.list-scrolling::-webkit-scrollbar {
+  width: 10x;
+  background-color: rgba(9,9,9,0.1)
+}
+/*.list-scrolling::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(9,9,9,0.3);
+}*/
+.list-scrolling::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #003466;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: rgba(0, 52, 102, 0.2);
+}
+
+.btn-conf{
+      background-color: #fff;
+      border: none;
+      color: #003466;
+}
+.btn-conf:hover{
+    background-color: #003466;
+    color: #fff;
+    border: none;
+}
+
+.btn-conf:active{
+    border: none;
+}
+
+.att {
+    /*color: #155724;*/
+    background-color: rgba(212, 237, 218, 0.5);
+    border-color: ##c3e6cb;;
+}
+.dif {
+    /*color: #004085;*/
+    background-color: rgba(204, 229, 255, 0.5);
+    border-color: #b8daff;
+}
+.cen {
+    /*color: #721c24;*/
+    background-color: rgba(248, 215, 218, 0.5);
+    border-color: #f5c6cb;
+}
+.por {
+    /*color: #856404;*/
+    background-color: rgba(255, 243, 205, 0.5);
+    border-color: #ffeeba;
+}
+.titolari {
+    /*color: #0c5460;*/
+    background-color: rgba(209, 236, 241, 0.5);
+    border-color: #bee5eb;
+}
+.titolo{
+    color: #800000;
+}
