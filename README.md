@@ -2,6 +2,10 @@
 
 Informatica Musicale - Università degli studi di Trento
 
-Sto lavorando su questo file
+Progetto superfigo
+
+Progetto per l'esame di Programmazione per il web. Simulazione del gioco fantacalcio, utilizzando un numero ridotto di giocatori. 
+
+
 
 Progetto per l'esame di Programmazione per il web. Simulazione del gioco fantacalcio, utilizzando un numero ridotto di giocatori. 
