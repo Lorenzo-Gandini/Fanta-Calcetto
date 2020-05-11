@@ -1,4 +1,4 @@
-//Aggiorna portieri
+//Funzione che aggiorna i portieri
 function aggiorna_por(dis,prezzo) {
     var fantacash = document.getElementById("fanta_c").innerHTML;
     var num_portieri = document.getElementById("f_por").innerHTML;
